@@ -11,5 +11,5 @@ fn handle_spin_server_rust(req: Request) -> Result<Response> {
     Ok(http::Response::builder()
         .status(200)
         .header("foo", "bar")
-        .body(Some("Hello, Fermyon".into()))?)
+        .body(Some("Hello, World!".into()))?)
 }
