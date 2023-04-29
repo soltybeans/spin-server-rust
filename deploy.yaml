@@ -15,7 +15,7 @@ spec:
       runtimeClassName: wasmtime-spin
       containers:
         - name: spin-server-rust
-          image: ghcr.io/soltybeans/spin-server-rust/spin-server-rust:0.1.0
+          image: ghcr.io/soltybeans/spin-server-rust:0.1.0
           command: ["/"]
 ---
 apiVersion: v1

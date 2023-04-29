@@ -1,6 +1,6 @@
 FROM scratch AS build
-WORKDIR /home/bhavani/spin-server-rust
 LABEL org.opencontainers.image.source=https://github.com/soltybeans/spin-server-rust
+WORKDIR /home/bhavani/spin-server-rust
 COPY . .
 
 FROM scratch
